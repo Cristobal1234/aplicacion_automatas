@@ -1,0 +1,18 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<p>
+		Tu fecha de nacimiento es 
+		{% for i in dia %}
+			/{{i}}
+		{% endfor %}
+	</p>
+	<p>
+		El dia de la semana de tu nacimiento es {{ nombre_dia }}
+	</p>
+</body>
+</html>
